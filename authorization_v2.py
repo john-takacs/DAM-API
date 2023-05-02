@@ -21,7 +21,7 @@ Revision History:
 """
 
 # Global variables
-HOST = "3.231.102.188"
+HOST = "192.168.102.188"
 PORT = "8083"
 BASIC_AUTHORIZATION = 'Basic YWR'
 DEBUG = True
