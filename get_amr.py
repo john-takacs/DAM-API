@@ -2,6 +2,7 @@ from typing import Dict
 
 import requests
 import authorization_v2
+import json
 
 """
 Description:
@@ -21,8 +22,8 @@ Revision History:
 """
 
 # Global variables
-HOST = "192.192.102.188"
-#HOST = "192.192.43.91"
+HOST = "192.168.102.188"
+#HOST = "192.169.43.91"
 PORT = "8083"
 BASIC_AUTHORIZATION = 'Basic YWR'
 DEBUG = False
@@ -50,14 +51,17 @@ def get_agent_monitoring_rule(rule_name, headers):
     #body = {'policy-type':'ds-agents-monitoring-rules'}
     body = {}
 
-    response = requests.post(url, json=body, headers=headers, verify=False)
+    response = requests.get(url, json=body, headers=headers, verify=False)
+    #list_response = requests.request("GET", url, headers=headers, data=payload, verify=False)
     if response.status_code == 200:
         print(f"Successfully retrieved : {rule_name}")
+        data = response.json()
+        print(data)
     else:
         print("Error Code:  " + str(response.status_code))
         print(
             f"Failed to retrieve AMR: {rule_name}\nHere is the error message: {response.text}")
-
+    return data
 
 if __name__ == '__main__':
     # Get the session_id via get_cookie()
@@ -68,7 +72,8 @@ if __name__ == '__main__':
     if my_response.status_code == 200:
         # The request was successful
         print("\nThe initial login request was successful\nWe will now retrieve the AMR")
-        rule_name = "create_table_dictionary"
+        #rule_name = "create_table_dictionary"
+        rule_name = "JT Test"
         rule = get_agent_monitoring_rule(rule_name, headers)
         if rule is not None:
             print("Agent Monitoring Rule:")
