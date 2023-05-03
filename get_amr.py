@@ -21,10 +21,10 @@ Revision History:
 """
 
 # Global variables
-HOST = "3.231.102.188"
-#HOST = "44.192.43.91"
+HOST = "192.192.102.188"
+#HOST = "192.192.43.91"
 PORT = "8083"
-BASIC_AUTHORIZATION = 'Basic YWRtaW46SWhhdGQyZUV0TWhj'
+BASIC_AUTHORIZATION = 'Basic YWR'
 DEBUG = False
 
 
