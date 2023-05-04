@@ -3,7 +3,7 @@ from typing import Dict
 
 import pandas as pd
 import requests
-import authorization
+import authorization_v2
 
 """
 This script reads data from an input CSV file, converts it to a JSON string, and iterates through each row of the data 

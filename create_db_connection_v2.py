@@ -1,7 +1,7 @@
 from typing import Dict, Any
 
 import requests
-import authorization
+import authorization_v2
 import pandas as pd
 import json
 
