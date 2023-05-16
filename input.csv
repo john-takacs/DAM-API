@@ -1,0 +1,12 @@
+MX-IP,MX-port,site,server_group_name,service_name,connection_name,ip-address,gateway_group_name,comment,OS-type,user-name,password,named-instance,domain-name,port
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-115,192.168.1.15,ImpervaDam14-7-gw-29122021169,15-Jan-23,Windows,admin001,test1234,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-116,192.168.1.16,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin002,apple1235,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-117,192.168.1.17,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin003,apple1236,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-118,192.168.1.18,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin004,apple1237,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-119,192.168.1.19,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin005,apple1238,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-120,192.168.1.20,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin006,apple1239,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-121,192.168.1.21,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin007,apple1240,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-122,192.168.1.22,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin008,apple1241,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-123,192.168.1.23,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin009,apple1242,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-124,192.168.1.24,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin010,apple1243,oracle_db_name,string,1234
+10.231.102.188,8083,DC01,MS SQL Server Group,MS SQL Service,SQL-125,192.168.1.24,ImpervaDam14-7-gw-29122021169,15-Jan-23,AIX,admin010,apple1243,oracle_db_name,string,1234
